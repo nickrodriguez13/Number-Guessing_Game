@@ -1,0 +1,58 @@
+<!--
+   Final Project
+
+   Author:  	Nicholas Rodriguez
+   Date:    	12/10/2016
+
+   Filename: game.html
+-->
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<head>
+<title>Guess My Number Game</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<script src="script.js"></script>
+
+</head>
+<body>
+<table>
+	<colgroup>
+		<col span="4" />
+	</colgroup>
+	<tbody>
+		<tr>
+			<th rowspan="5" class="image"><img src="gamelogo.jpg" alt="game logo" /></th>
+			<th colspan="2" class="title">Number Range</th>
+			<th rowspan="2"><input type="button" class="button" name="start" value="Start" onclick="startGame()" /></th>
+		</tr>
+		<tr>
+			<td>
+			From: 
+			<br />
+			<input type="text" id="from" size="8" />
+			</td>
+			<td>
+			To:
+			<br />
+			<input type="text" id="to" size="8" onblur="randomNumber()" />
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4"><input type="text" id="dialog" size="50%" /></td>
+		</tr>
+		<tr>
+			<td colspan="4">
+			<input type="text" id="guess" size="8" />
+			<br />
+			<input type="button" class="button" id="guessBtn" value="Guess" onclick="guessNumber()" />
+			</td>
+		</tr>
+		<tr>
+			<td colspan ="4"><input type="text" id="output" size="50%" /></td>
+		</tr>
+	</tbody>
+</table>
+</body>
+</html>
