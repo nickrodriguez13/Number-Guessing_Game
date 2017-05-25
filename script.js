@@ -1,5 +1,5 @@
 /*
-   Final Project
+   Number Guessing Game
 
    Author:  	Nicholas Rodriguez
    Date:    	12/10/2016
