@@ -1,8 +1,8 @@
 /*
    Number Guessing Game
 
-   Author:  	Nicholas Rodriguez
-   Date:    	12/10/2016
+   Author:  	Nick Rodriguez
+   Date:    	9/4/2017
 
    Filename: script.js
 */
